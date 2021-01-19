@@ -1,0 +1,13 @@
+{
+  "name": "ICE1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Evan <evan.palmer002@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^5.0.0-beta1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
