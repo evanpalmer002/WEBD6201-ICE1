@@ -38,6 +38,7 @@
 
         //paragraphOne.before(newDivTag);
 
+        mainContent.removeAttribute("class");
     }
 
     window.addEventListener("load", Start);

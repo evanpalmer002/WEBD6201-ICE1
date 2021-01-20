@@ -32,12 +32,9 @@
         <p #id = paragraphThree> This is the third paragraph </p>`;
 
 
-        mainContent.append(newDivTag);
+        //mainContent.append(newDivTag);
 
-        //paragraphOne.after(newDivTag);
-
-        //paragraphOne.before(newDivTag);
-
+        paragraphOne.after(newDivTag);
     }
 
     window.addEventListener("load", Start);

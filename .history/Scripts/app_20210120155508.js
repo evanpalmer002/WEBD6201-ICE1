@@ -38,6 +38,7 @@
 
         //paragraphOne.before(newDivTag);
 
+        mainContent.removeChild(paragraphOne);
     }
 
     window.addEventListener("load", Start);
