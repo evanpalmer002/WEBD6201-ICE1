@@ -4,7 +4,7 @@
 
 (function()
 {
-    "use strict";
+
     function Start()
     {
         console.log("App Started...");

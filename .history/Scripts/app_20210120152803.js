@@ -4,7 +4,7 @@
 
 (function()
 {
-    "use strict";
+
     function Start()
     {
         console.log("App Started...");
@@ -25,14 +25,6 @@
         let mainContent = document.querySelector("main");
         //Step 4 Append the new element to the parent
         mainContent.appendChild(paragraphTwo);
-
-        let newDivTag = document.createElement("div");
-        newDivTag.innerHTML = 
-        `<h2>This is my second heading</h2>
-        <p #id = paragraphThree> This is the third paragraph </p>`;
-
-
-        mainContent.append(newDivTag);
     }
 
     window.addEventListener("load", Start);
